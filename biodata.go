@@ -20,7 +20,6 @@ func main() {
 				Nama: nama,
 			},
 		}
+		peserta.FinPst()
 	}
-
-	peserta.FinPst{}
 }
