@@ -7,7 +7,7 @@ import (
 	"training-golang-corpu/mt"
 )
 
-func main() {
+func mainBio() { //main
 	args := os.Args
 
 	if len(args) < 2 {
