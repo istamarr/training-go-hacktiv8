@@ -17,7 +17,7 @@ func (p UstomPst) FinPst() {
 	for k := range psts {
 		if strings.ToLower(psts[k].Nama) == strings.ToLower(p.Nama) {
 			fmt.Println("ID", k+1)
-			fmt.Println("Nama", psts.Nama)
+			fmt.Println("Nama", psts[k].Nama)
 		}
 	}
 }
