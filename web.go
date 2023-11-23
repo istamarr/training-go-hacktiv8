@@ -7,7 +7,7 @@ import (
 
 var port = ":9098"
 
-func main() {
+func mainsw() { //main
 	http.HandleFunc("/", greet)
 
 	fmt.Println("Web Started ", port)
